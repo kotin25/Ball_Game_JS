@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Лопни шарик</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1><a href="index.html">Игра 'Лопни шарик'</a></h1>
+        </div>
+
+        <div class="content">
+            <!--Счёт-->
+            <div class="field" id="left_field">
+                <h2>Счет</h2>
+                <p><span id="score">0</span>/<span id="losses">0</span></p>
+                <h2>Таймер</h2>
+                <p id="timer">60</p>
+            </div>
+
+            <!--Поле-->
+            <div id="game_field">
+
+            </div>
+
+            <!--Старт-->
+            <div class="field" id="right_field">
+                <button onclick="start_game()">Старт</button><br/>
+                <button onclick="stop_game()">Стоп</button>
+            </div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

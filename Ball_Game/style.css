@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+    background-color: #1ae321;
+	height: 100%;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+.content {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 90px;
+    text-align: center;
+}
+
+.header {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.header a {
+    color: #594f4f;
+    font-size: 50px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #282828;
+}
+
+.header a:active {
+    color: black;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+}
+
+/*игровоe полe*/
+div#game_field {
+    background-color: #df6e6e;
+    height: 500px;
+    width: 70%;
+    float: left;
+    position: relative;
+    margin: 0 auto;
+}
+
+#game_field h2 {
+    color: #282828;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 50px auto;
+}
+
+div.field {
+    background-color: #2fe0be;
+    height: 500px;
+    width: 15%;
+    position: relative;
+}
+
+/*cчет слева от игрового поля*/
+div#left_field {
+    float: left;
+}
+
+/*кнопка справа от игрового поля*/
+div#right_field {
+    float: right;
+}
+
+#left_field h2 {
+    color: #282828;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 70px auto 30px;
+}
+
+/*текст в абзацах*/
+p {
+    font-size: 30px;
+    font-weight: 100;
+}
+/*количество лопнутых шариков*/
+span#score {
+    color: #d10e0e;
+}
+
+/*количество пропущенных шариков*/
+span#losses {
+    color: #192ee4;
+}
+
+/*шарики*/
+div.ball {
+    border: black solid 1px;
+    border-radius: 50%;
+    opacity: 0.5;
+    position: absolute;
+}
+
+
+/*иголка*/
+div.needle {
+    background-color: #282828;
+    border: #282828 solid 1px;
+    position: absolute;
+}
+
+/*кнопки*/
+button {
+    padding: 15px 15px;
+    color: #a1a2a4;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 80px auto;
+}
+
+button:hover {
+    background-color: #a1a2a4;
+}
+
+button:active {
+    background-color: #a1a2a4;
+}
